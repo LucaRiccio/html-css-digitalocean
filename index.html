@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
     <header class="container">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,8 +35,8 @@
               <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comunity <span class="caret"></span></a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
-            <form class="navbar-form navbar-left">
-              <button type="submit" class="btn btn-default">Sign Up</button>
+            <form class="navbar-form navbar-right">
+              <button id="bottone-nav" type="submit" class="btn btn-default">Sign Up</button>
             </form>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -45,61 +46,68 @@
       <div class="container ocean-banner">
         <div class="row">
           <div class="col-md-6">
-            <h1>Welcome to the developer cloud</h1>
-            <h3>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</h3>
+            <div class="welcome">
+              <h1>Welcome to the developer cloud</h1>
+              <h3>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</h3>
+            </div>
           </div>
           <div class="text-center col-md-offset-2 col-md-4">
-            <div class="jumbotron ocean-jumbo">
+            <div class="ocean-jumbo">
               <div class="titolo-jumbo">
-                <h3>Deploys in seconds</h3>
+                <span>Deploy in seconds</span>
               </div>
-              <div class="input-jumbo">
-                <input type="text" class="form-control" placeholder="Text input">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                <button id="bottone-signup" type="submit" class="btn btn-default btn-block">Sign Up With Email</button>
-              </div>
-              <div class="bottoni-jumbo">
-                <button id="bottone-google" type="submit" class="btn btn-default btn-block"><i class="fab fa-google"></i><span>Sign Up With Google</span></button>
-                <button id="bottone-git" type="submit" class="btn btn-default btn-block"><span><i class="fab fa-github"></i></span></button>
+              <div class="inputs">
+                <div class="input-jumbo">
+                  <input type="text" class="form-control" placeholder="First Name">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <button id="bottone-signup" type="submit" class="btn btn-default btn-block">Sign Up With Email</button>
+                  <div class="bottoni-jumbo">
+                    <button id="bottone-google" type="submit" class="btn btn-default btn-block"><i class="fab fa-google"></i><span> Sign Up With Google</span></button>
+                    <button id="bottone-git" type="submit" class="btn btn-default btn-block"><span><i class="fab fa-github"></i></span></button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="sfondo-sponsor">
-      <div class="container">
+    <section class="sfondo-sponsors">
+      <div class="container sponsor">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h4>Innovative businesses trust Digital Ocean</h4>
+            <div class="titolo-sponsor">
+              <h4>Innovative businesses trust Digital Ocean</h4>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="">
           </div>
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg?auto=compress,format" alt="">
           </div>
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg?auto=compress,format" alt="">
           </div>
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="">
           </div>
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/01ff74d1-79dd-4f18-888f-4a93a976e61d_wework-be6eab32.svg?auto=compress,format" alt="">
           </div>
-          <div class="col-md-2">
+          <div class="text-center col-md-2 col-sm-4">
             <img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="">
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <a href="#">See businesses solution ></a>
+          <div class="text-center col-md-12 col-sm-12">
+            <div class="spon">
+              <a href="#">See businesses solution ></a>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
 

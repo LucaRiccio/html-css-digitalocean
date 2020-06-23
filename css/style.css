@@ -1,0 +1,9 @@
+#logo-nav {
+  height: 25px;
+  width: 170px;
+}
+
+.ocean-banner {
+background-color: blue;
+background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+}

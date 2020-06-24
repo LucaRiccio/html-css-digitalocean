@@ -37,7 +37,7 @@ h1 {
   margin-top: 51px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
-  height: 600px; /* CANCELLARE */
+  /* height: 600px;  */
 }
 
 .ocean-banner {
@@ -45,13 +45,13 @@ h1 {
 }
 
 .welcome {
-  /* position: relative;
-  transform: translateY(60%);   */
+  padding-top: 110px;
 }
 
 .ocean-jumbo {
   margin-top: 90px;
-  /* border: 1px solid black; */
+  padding-bottom: 100px;
+
 }
 
 .titolo-jumbo {
@@ -136,3 +136,80 @@ h1 {
   text-decoration: none;
 
 }
+
+.titolo-deploy {
+  margin-top: 90px;
+  color: #5b6987;
+}
+
+.titolo-deploy h2 {
+  color: #031b4e;
+  font-weight: bold;
+}
+
+.ocean-aside {
+  margin-top: 50px;
+  color: #5b6987;
+  font-weight: bold;
+}
+
+.ocean-aside li {
+  margin-bottom: 25px;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.card {
+  margin-top: 50px;
+  color: #5b6987;
+}
+
+.card img {
+  height: 40px;
+  width: 40px;
+}
+
+.card h4 {
+  font-weight: bold;
+  color: #031b4e;
+}
+
+.sfondo-developer {
+  background-color: #f3f5f9;
+}
+
+.titolo-developer {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.didascalia-carosello {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.titolo-built {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.titolo-built h2 {
+  color: #031b4e;
+  font-weight: bold;
+}
+
+/* .card {
+  margin-top: 50px;
+  color: #5b6987;
+}
+
+.card img {
+  height: 40px;
+  width: 40px;
+}
+
+.card h4 {
+  font-weight: bold;
+  color: #031b4e;
+} */

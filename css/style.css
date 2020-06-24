@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -220,8 +221,9 @@ h1 {
   background-size: cover;
 }
 
-.titolo-world h2 {
+.titolo-world {
   margin-top: 90px;
+  margin-bottom: 70px;
 }
 
 .titolo-world h2 {
@@ -230,6 +232,16 @@ h1 {
 
 .world-right {
   margin-bottom: 90px;
+  color: #9da6ba;
+}
+
+.world-left {
+  color: #9da6ba;
+}
+
+.codice-world {
+  color: white;
+  font-weight: bold;
 }
 
 .sfondo-digital {
@@ -239,14 +251,19 @@ h1 {
 .titolo-digital {
   margin-top: 90px;
   margin-bottom: 50px;
+  color: #031b4e
+}
 
+.titolo-digital h2 {
+  font-weight: bold;
 }
 
 .carosello-digital {
-  border: 1px solid black;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   background-color: white;
   border-radius: 5px;
+  padding: 30px 30px;
+  color: #5b6987;
 }
 
 .carosello-digital img {
@@ -258,6 +275,21 @@ h1 {
 background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
 background-size: cover;
 
+}
+
+.titolo-started h2 {
+  font-weight: bold;
+  font-size: 34px;
+  color: white;
+  margin-top: 55px;
+}
+
+#bottone-account {
+  background-color: white;
+  color: #0069ff;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .sfondo-footer {

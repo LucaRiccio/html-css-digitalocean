@@ -199,17 +199,84 @@ h1 {
   font-weight: bold;
 }
 
-/* .card {
-  margin-top: 50px;
+.card-built {
   color: #5b6987;
 }
 
-.card img {
-  height: 40px;
+.card-built img {
+  height: 50px;
   width: 40px;
 }
 
-.card h4 {
+.card-built h4 {
   font-weight: bold;
   color: #031b4e;
-} */
+}
+
+.sfondo-world {
+  color: white;
+  background-color: #031b4e;
+  background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+  background-size: cover;
+}
+
+.titolo-world h2 {
+  margin-top: 90px;
+}
+
+.titolo-world h2 {
+  font-weight: bold;
+}
+
+.world-right {
+  margin-bottom: 90px;
+}
+
+.sfondo-digital {
+  background-color: #f3f5f9;
+}
+
+.titolo-digital {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+}
+
+.carosello-digital {
+  border: 1px solid black;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.carosello-digital img {
+  height: 50px;
+  width: 200px;
+}
+
+.sfondo-started {
+background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
+background-size: cover;
+
+}
+
+.sfondo-footer {
+  background-color: #010e28;
+  color: #7f8693
+}
+
+#titolo-menu {
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+
+.menu-footer a {
+  color: #7f8693;
+  text-decoration: none;
+}
+
+.menu-footer li {
+  list-style: none;
+
+}

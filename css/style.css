@@ -17,14 +17,11 @@ h1 {
 }
 
 #logo-nav {
-  /* height: 25px;
-  width: 170px; */
   height: 100%
 }
 
 #logo-nav-alt {
   height: 100%;
-
 }
 
 #prova {
@@ -42,6 +39,7 @@ h1 {
   color: #0069ff;
   font-weight: bold;
 }
+
 #bottone-nav:hover {
   border: 1px solid #0069ff;
   color: white;
@@ -53,6 +51,7 @@ h1 {
   margin-top: 51px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
@@ -80,7 +79,6 @@ h1 {
 
 .input-jumbo input {
   margin-bottom: 5px;
-
 }
 
 .inputs {
@@ -102,6 +100,7 @@ h1 {
   font-weight: bold;
   padding: 10px 0;
   font-weight: bold;
+  white-space: normal;
 }
 
 #bottone-google {
@@ -112,6 +111,7 @@ h1 {
   font-weight: bold;
   margin-right: 5%;
   padding: 10px 0;
+  white-space: normal;
 }
 
 #bottone-git {
@@ -123,8 +123,6 @@ h1 {
 
 .sfondo-sponsors {
   background-color: #f3f5f9;
-  /* height: 300px; */
-
 }
 
 .sponsor {
@@ -168,13 +166,16 @@ h1 {
 
 .ocean-aside li {
   margin-bottom: 25px;
-
   list-style: none;
 }
 
 .ocean-aside a {
   text-decoration: none;
   color: #5b6987;
+  border-left: 1px solid #5b6987;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 8px;
 }
 
 .ocean-aside a:hover {
@@ -257,6 +258,7 @@ h1 {
   background-color: #031b4e;
   background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .titolo-world {
@@ -333,8 +335,8 @@ h1 {
 }
 
 .sfondo-started {
-background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
-background-size: cover;
+  background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
+  background-size: cover;
 }
 
 .titolo-started h2 {
@@ -422,6 +424,26 @@ background-size: cover;
 
   .allinea-centro {
     text-align: center;
+  }
+
+  .ocean-aside {
+    text-align: center;
+  }
+
+  .ocean-aside li {
+    margin-bottom: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .ocean-aside a {
+    text-decoration: none;
+    color: #5b6987;
+    border-left: 0px solid #5b6987;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
   }
 
 }

@@ -17,8 +17,24 @@ h1 {
 }
 
 #logo-nav {
-  height: 25px;
-  width: 170px;
+  /* height: 25px;
+  width: 170px; */
+  height: 100%
+}
+
+#logo-nav-alt {
+  height: 100%;
+
+}
+
+#prova {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#prova2 {
+  padding-right: 7px;
+  padding-left: 5px;
 }
 
 #bottone-nav {
@@ -37,7 +53,7 @@ h1 {
   margin-top: 51px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
-  /* height: 600px;  */
+
 }
 
 .ocean-banner {
@@ -179,6 +195,7 @@ h1 {
 .card h4 {
   font-weight: bold;
   color: #031b4e;
+  font-size: 16px;
 }
 
 .sfondo-developer {
@@ -260,6 +277,25 @@ h1 {
   color: #9da6ba;
 }
 
+.table a {
+  color: #00d7d2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.table a:hover {
+  color: #1633ff;
+}
+
+#bandwidth {
+  color: #006aff;
+  text-decoration: none;
+}
+
+#bandwidth:hover {
+  color: #1633ff;
+}
+
 .codice-world {
   color: white;
   font-weight: bold;
@@ -333,6 +369,10 @@ background-size: cover;
   text-decoration: none;
 }
 
+.menu-footer a:hover {
+  color: white;
+}
+
 .menu-footer li {
   list-style: none;
 }
@@ -356,6 +396,14 @@ background-size: cover;
   margin-left: 1px;
   margin-right: 24px;
   font-size: 25px;
+}
+
+.bottom-right a {
+  color: #7f8693;
+}
+
+.bottom-right a:hover {
+  color: white;
 }
 
 #logo-bottom {
